@@ -18,4 +18,8 @@ Dice = {
 lbl = Label(App, text=Dice[0], font=('Times', 100))
 lbl.grid(row=0, column=0, padx=40)
 
+
+roll_button = Button(App, text='Roll', command=roll)
+roll_button.grid()
+
 App.mainloop()
