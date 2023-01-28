@@ -14,4 +14,8 @@ Dice = {
     6 : '⚅'
 }
 
+# First dice character to show when the app starts
+lbl = Label(App, text=Dice[0], font=('Times', 100))
+lbl.grid(row=0, column=0, padx=40)
+
 App.mainloop()
